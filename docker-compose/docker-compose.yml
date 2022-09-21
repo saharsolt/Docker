@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  node-api:
+    build: node-api/.
+  node-app:
+    build: node-app/.
+    ports: 
+      - 3333:3333
